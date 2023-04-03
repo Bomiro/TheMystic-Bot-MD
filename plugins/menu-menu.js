@@ -632,11 +632,11 @@ let buttons = [
 //{ buttonId: '#terminosycondiciones', buttonText: { displayText: '📋 𝚃𝙴𝚁𝙼𝙸𝙽𝙾𝚂 𝚈 𝙲𝙾𝙽𝙳𝙸𝙲𝙸𝙾𝙽𝙴𝚂 📋' }, type: 1 }]
 { buttonId: '#infobot', buttonText: { displayText: '🐾 𝙸𝙽𝙵𝙾𝙱𝙾𝚃 🐾' }, type: 1 }]
 let buttonMessage = {
-image: pp,
+
 caption: str.trim(),
 mentions: [m.sender],
 footer: `*${wm}*`,
-buttons: buttons,
+
 headerType: 4,
 contextInfo: {
 mentionedJid: [m.sender],
